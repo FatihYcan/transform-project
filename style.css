@@ -1,0 +1,268 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  transition: transform 2s ease-in-out;
+}
+
+.logo:hover {
+  transform: rotate(360deg);
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+ul li {
+  position: relative;
+  cursor: pointer;
+}
+
+ul li::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  transition: width 0.5s ease-in-out;
+  color: brown;
+  border-bottom: 1px solid brown;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+ul li:hover::after {
+  width: 100%;
+}
+
+ul li:hover {
+  color: brown;
+}
+
+main {
+  text-align: center;
+}
+
+h1 {
+  font-weight: 700;
+  color: brown;
+  animation-name: slideDown;
+  animation-duration: 1s;
+  animation-iteration-count: 3;
+}
+
+@keyframes slideDown {
+  0% {
+    transform: translateY(-100vh);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.images img {
+  width: 250px;
+  animation: grow 3s infinite;
+  border-radius: 10px;
+}
+
+.images:hover img {
+  animation: none;
+}
+
+@keyframes grow {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.4);
+  }
+}
+
+footer {
+  height: 17vh;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  font-size: 2rem;
+  line-height: 30px;
+  gap: 1rem;
+  padding: 0px 2rem;
+}
+
+i {
+  transition: transform 1s ease-in-out;
+}
+
+i:hover {
+  transform: rotate(360deg);
+  color: brown;
+}
+
+@media only screen and (max-width: 767px) {
+  header {
+    padding: 7px 0.7rem;
+  }
+
+  img {
+    width: 100px;
+  }
+
+  ul {
+    gap: 0.5rem;
+    text-align: center;
+  }
+
+  ul li {
+    font-size: 15px;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  .images {
+    margin-top: 3rem;
+  }
+
+  .images img {
+    transition: transform 2s ease-in-out;
+  }
+
+  .images img:hover {
+    cursor: pointer;
+    transform: scale(1.5);
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1113px) {
+  header {
+    height: 17vh;
+    padding: 0px 2rem;
+  }
+
+  img {
+    width: 150px;
+  }
+
+  ul {
+    gap: 2rem;
+  }
+
+  ul li {
+    font-size: 18px;
+  }
+
+  main {
+    height: 66vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  h1 {
+    font-size: 4rem;
+  }
+
+  .images {
+    margin-top: 3rem;
+  }
+
+  .images .image2,
+  .image4 {
+    transition: transform 2s ease-in-out;
+  }
+
+  .images .image2:hover,
+  .image4:hover {
+    cursor: pointer;
+    transform: scale(1.5);
+  }
+
+  .image1 {
+    transition: all 1.5s ease-in-out;
+  }
+
+  .image1:hover {
+    transform: translateX(90px) scale(1.5);
+  }
+
+  .image3 {
+    transition: all 1.5s ease-in-out;
+  }
+
+  .image3:hover {
+    transform: translateX(-90px) scale(1.5);
+  }
+}
+
+@media only screen and (min-width: 1114px) {
+  header {
+    height: 17vh;
+    padding: 0px 2rem;
+  }
+
+  img {
+    width: 150px;
+  }
+
+  ul {
+    gap: 2rem;
+  }
+
+  ul li {
+    font-size: 18px;
+  }
+
+  main {
+    height: 66vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  h1 {
+    font-size: 4rem;
+  }
+
+  .images {
+    margin-top: 2.5rem;
+  }
+
+  .images img {
+    transition: transform 2s ease-in-out;
+
+    margin-right: -5px;
+  }
+
+  .images img:hover {
+    cursor: pointer;
+    transform: scale(2);
+  }
+
+  @keyframes grow {
+    50% {
+      transform: scale(1.4);
+    }
+  }
+}
