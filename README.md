@@ -32,6 +32,6 @@ Bu proje, basit CSS geçişleri ve animasyonları kullanarak bir web sayfası ol
 - CSS
 - Font Awesome
 
-![Cw](./img/ss.jpg)
+https://github.com/user-attachments/assets/689157b0-5f39-4689-ae67-a10a6d47cb43
 
 [Canlı Demo'yu Deneyin](https://fatihycan.github.io/transform-project/)
