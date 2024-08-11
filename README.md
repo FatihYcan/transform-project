@@ -1,35 +1,41 @@
-# Transition-Transform-Animation
+#Transition-Transform-Animation
 
-This project creates a web page using simple CSS transitions and animations. The page contains a title, a set of images, and social media icons. It provides an interactive user experience with CSS animations and transitions.
+This project includes a web page design and various animations using HTML, CSS and JavaScript. The project shows a simple web page with a header, a main content area, a set of images and social media icons. The design is enriched with various transitions, transformations and animations.
 
 ## Features
 
-- **Title Animation**: The title scrolls from top to bottom as the page loads.
-- **Logo Rotation**: The logo rotates 360 degrees when hovered over it.
-- **Image Enlargement**: Images enlarge when hovered over them.
-- **Social Media Icons**: Social media icons rotate and change color when hovered over.
+- **Transition and Transformation Animations**: Transformation effects on logo and social media icons.
+- **Image Animations**: Growth animations on images.
+- **Responsive Design**: Design compatible with different screen sizes.
+- **Hover Effects**: Interactive effects on menu items and images.
+-
+## Technologies Used
 
-## Technologies
-
-- HTML
-- CSS
+- HTML5
+- CSS3
+- Transitions and Animations
+- Flexbox and Grid
+- Responsive Design
 - Font Awesome
 
 # Transition-Transform-Animation
 
-Bu proje, basit CSS geçişleri ve animasyonları kullanarak bir web sayfası oluşturur. Sayfa, bir başlık, bir dizi resim ve sosyal medya simgeleri içerir. CSS animasyonları ve geçişleri ile etkileşimli bir kullanıcı deneyimi sağlar.
+Bu proje, HTML, CSS ve JavaScript kullanarak bir web sayfası tasarımını ve çeşitli animasyonları içerir. Proje, bir başlık, bir ana içerik bölgesi, bir dizi görsel ve sosyal medya simgeleri içeren basit bir web sayfasını göstermektedir. Tasarım, çeşitli geçişler, dönüşümler ve animasyonlarla zenginleştirilmiştir.
 
 ## Özellikler
 
-- **Başlık Animasyonu**: Başlık, sayfa yüklendiğinde yukarıdan aşağıya doğru kayar.
-- **Logo Dönme**: Logo üzerine gelindiğinde 360 derece döner.
-- **Resim Büyütme**: Resimler üzerine gelindiğinde büyür.
-- **Sosyal Medya İkonları**: Sosyal medya ikonları üzerine gelindiğinde döner ve renk değiştirir.
+- **Geçiş ve Dönüşüm Animasyonları**: Logo ve sosyal medya simgeleri üzerinde dönüşüm efektleri.
+- **Görsel Animasyonları**: Görseller üzerinde büyüme animasyonları.
+- **Responsive Tasarım**: Farklı ekran boyutlarına uyumlu tasarım.
+- **Hover Efektleri**: Menü öğeleri ve görseller üzerinde etkileşimli efektler.
+- 
+## Kullanılan Teknolojiler
 
-## Technologies
-
-- HTML
-- CSS
+- HTML5
+- CSS3
+- Geçişler ve Animasyonlar
+- Flexbox ve Grid
+- Responsive Tasarım
 - Font Awesome
 
 https://github.com/user-attachments/assets/689157b0-5f39-4689-ae67-a10a6d47cb43
