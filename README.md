@@ -1,4 +1,4 @@
-#Transition-Transform-Animation
+# Transition-Transform-Animation
 
 This project includes a web page design and various animations using HTML, CSS and JavaScript. The project shows a simple web page with a header, a main content area, a set of images and social media icons. The design is enriched with various transitions, transformations and animations.
 
@@ -8,7 +8,7 @@ This project includes a web page design and various animations using HTML, CSS a
 - **Image Animations**: Growth animations on images.
 - **Responsive Design**: Design compatible with different screen sizes.
 - **Hover Effects**: Interactive effects on menu items and images.
--
+
 ## Technologies Used
 
 - HTML5
@@ -28,7 +28,7 @@ Bu proje, HTML, CSS ve JavaScript kullanarak bir web sayfası tasarımını ve �
 - **Görsel Animasyonları**: Görseller üzerinde büyüme animasyonları.
 - **Responsive Tasarım**: Farklı ekran boyutlarına uyumlu tasarım.
 - **Hover Efektleri**: Menü öğeleri ve görseller üzerinde etkileşimli efektler.
-- 
+  
 ## Kullanılan Teknolojiler
 
 - HTML5
